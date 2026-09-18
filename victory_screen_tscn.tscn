@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://d1ocvw10v1jg2"]
+
+[node name="VictoryScreen_tscn" type="Control" unique_id=944318182]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 485.0
+offset_bottom = 241.0
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=507929649]
+layout_mode = 0
+offset_right = 1154.0
+offset_bottom = 647.0
+
+[node name="Label" type="Label" parent="." unique_id=1072380504]
+modulate = Color(1, 0, 0, 1)
+self_modulate = Color(1, 0, 0, 1)
+layout_mode = 0
+offset_left = 123.0
+offset_top = 186.0
+offset_right = 1029.0
+offset_bottom = 446.0
+theme_override_font_sizes/font_size = 85
+text = "THANKS FOR PLAYING
+GAME OVER"
+horizontal_alignment = 1
+max_lines_visible = 3
